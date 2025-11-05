@@ -18,8 +18,8 @@ jobs:
 
       - name: Install Nodejs and npm
         uses: actions/setup-node@v6.0.0
-          with:
-            node-version: '22'
+        with:
+          node-version: '22'
 
       - name: Install newman and Html-extrareport globally
         run: |
